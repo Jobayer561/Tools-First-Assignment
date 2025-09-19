@@ -148,8 +148,11 @@ nav li a {
     display: flex;
     gap:20px
 }
+
 .resume-heading{
+  margin-top: 80px;
     text-align: center;
+    margin-bottom: 40px;
 }
 .parent-div{
     display: flex;
@@ -161,4 +164,52 @@ nav li a {
 }
 .bg{
     color: #757575;
+}
+.btn{
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer{
+  background-color: #FFF8F3;
+}
+.parent-footer{
+  margin-top: 60px;
+  display: flex;
+  padding: 50px 0;
+}
+.left-footer{
+  width: 50%;
+}
+.right-footer{
+  width: 50%;
+  margin-left: 80px;
+}
+.social-media{
+  display: flex;
+  gap:40px;
+}
+.footer-p{
+  color: #474747;
+}
+.name, .email, .textarea{
+  display: block;
+  margin-bottom: 20px;
+border: none;
+}
+.name, .email{
+ width: 460px;
+ height: 65px;
+border-radius: 5px;
+}
+.name::placeholder, .email::placeholder,.textarea::placeholder{
+  padding: 20px;
+}
+.textarea{
+  width: 460px;
+  height: 130px;
+  overflow: hidden;
+  border: none;
+  resize: none;
+  border-radius: 5px;
 }
